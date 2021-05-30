@@ -28,7 +28,7 @@ def get_data():
     Web Link: http://archive.ics.uci.edu/ml/datasets/wine+quality
     '''
     
-    data_path = 'D:\download\winequality-red.csv' # Edit the path
+    data_path = '.\winequality-red.csv' # Edit the path
     data = np.genfromtxt(data_path,dtype=np.float32,delimiter=";",skip_header=1)
 
     x = data[:,0:11]
@@ -146,7 +146,7 @@ def print_eval(y_true,y_pred):
 # Generate clusters and display the number of wines in the same cluster
 
 def print_clusters():
-    data_path = 'D:\download\winequality-red.csv' # Edit the path
+    data_path = '.\winequality-red.csv' # Edit the path
     data = np.genfromtxt(data_path,dtype=np.float32,delimiter=";",skip_header=1)
 
     x = data[:,0:11]   
