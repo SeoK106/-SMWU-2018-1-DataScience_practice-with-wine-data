@@ -1,4 +1,4 @@
-# [SMWU 2018-1] DataScience_practice with wine dataset🍷
+# [SMWU 2018-1] DataScience_practice prediction with red-wine dataset🍷
 
 This is the code to practice data science **methods in scikit-learn** through python.<br>
 Especially It focused on **classification, evaluation, and clustering**.
